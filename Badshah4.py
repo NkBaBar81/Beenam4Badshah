@@ -75,7 +75,7 @@ logo = """
 \033[1;94m       88   88 88     88     88  V888  88   88 88  88  88
 \033[1;96m       YP88dY  YP88db YP88db YP   V8P  YP   YP YP  YP  YP
                                                                
-                               EVERYTHING IS POSSIBLE TO ME            
+                            EVERYTHING IS POSSIBLE TO ME            
 
                              
                                                                                                                                            
