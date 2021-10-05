@@ -73,15 +73,15 @@ logo = """
 \033[1;93m       88oo8Y  88oo88 88oo88 88V8o 88  88ooo88 88  88  88
 \033[1;95m       88~~~db 88~~~~ 88~~~~ 88 V8o88  88~~~88 88  88  88
 \033[1;94m       88   88 88     88     88  V888  88   88 88  88  88
-\033[1;96m       YP88dY  YP88db YP88db YP   V8P  YP   YP YP  YP  YP
+\033[1;96m       YP88dY  YP88db YP88db YP   V8P  YP   YP YP  YP  YP 
                                                                
-                         [EVERYTHING IS POSSIBLE TO ME]            
+                            EVERYTHING IS POSSIBLE TO ME            
 
                              
                                                                                                                                            
 \033[1;97m      -------------------------------------------------  
 \033[1;97m.     >>>>>>>>>>>>>>>>>>>>>>>>>>>
-\033[1;92m      OWNER  : BEENAM <<<<<<<<<                   
+\033[1;92m.     OWNER  : BEENAM <<<<<<<<<                   
 \033[1;97m.     >>>>>>>>>>>>>>>>>>>>>>>>>>>
 \033[1;97m      --------------------------------------------------
 """
@@ -743,7 +743,12 @@ def menu_select():
 		                                                    ok.close()
 
 		                                                    oks.append(uid)
-           except:
+
+		                                                
+
+
+
+	  except:
             pass
 
     p = ThreadPool(30)
