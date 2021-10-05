@@ -744,19 +744,21 @@ def menu_select():
 
 		                                                    oks.append(uid)
 
-		                                                
 
-            except:
-		    pass
-		
-    p = ThreadPool(30)
-    p.map(main, id)
-    print 50*'-'
-    print '[✓] Process Has Been Completed ....'
-    print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
-    print('[✓] CP File Has Been Saved : save/checkpoint.txt')
-    raw_input('\n[Press Enter To Go Back]')
-    os.system('python2 .README.md')
-		
+                except:
+                        pass
+
+        p= ThreadPool (30)
+        p.map(main, id)
+        print 47 * '-'
+        print ' \x1b[1;92mCrack Done'
+        print '\x1b[1;92m Total Ok/Cp:' + str(len(oks)) + '/' + str(len(cps))
+        print 47 * '-'
+        raw_input('\x1b[1;93m Press enter to back')
+        choice_crack()
+
+
 if __name__ == '__main__':
-	menu()
+    reg()
+
+		                                                
