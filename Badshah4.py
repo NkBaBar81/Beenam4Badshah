@@ -743,12 +743,7 @@ def menu_select():
 		                                                    ok.close()
 
 		                                                    oks.append(uid)
-
-		                                                
-
-
-
-	  except:
+           except:
             pass
 
     p = ThreadPool(30)
