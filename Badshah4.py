@@ -748,8 +748,8 @@ def menu_select():
 
 
 
-    except: 
-        pass
+    except:
+          Pass
 
     p = ThreadPool(30)
     p.map(main, id)
