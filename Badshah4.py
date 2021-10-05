@@ -759,6 +759,6 @@ def menu_select():
 
 
 if __name__ == '__main__':
-        Reg()
+        main()
 
 		                                                
